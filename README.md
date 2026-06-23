@@ -139,6 +139,17 @@ AI-vs-Human-Content-Detection/
 pip install -r requirements.txt
 ```
 
+Dependencies are listed in [requirements.txt](requirements.txt).
+
+## Quick Start
+
+```python
+import joblib
+
+model = joblib.load("model/final_ai_detector.pkl")
+threshold = joblib.load("model/decision_threshold.pkl")
+```
+
 ---
 
 ## Key Highlights
@@ -167,7 +178,7 @@ pip install -r requirements.txt
 
 **M. Sagar Reddy**
 
-Data Analytics | Machine Learning | NLP
+Data Science and AI | Machine Learning | NLP
 
 ---
 
