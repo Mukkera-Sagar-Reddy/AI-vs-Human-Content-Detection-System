@@ -1,4 +1,5 @@
 # AI vs Human Content Detection System
+![Project Thumbnail](images/project_thumbnail.png)
 
 ## Overview
 
@@ -34,39 +35,13 @@ This project aims to automate content classification while maintaining scalabili
 
 ## Final Solution Architecture
 
-Text Input
+![Solution Architecture](images/project_architecture.png)
 
-↓
+---
 
-Text Cleaning
+## Model Pipeline
 
-↓
-
-Word TF-IDF Features
-
-*
-
-Character TF-IDF Features
-
-↓
-
-Feature Union
-
-↓
-
-Logistic Regression
-
-↓
-
-Probability Scoring
-
-↓
-
-Threshold Optimization (0.44)
-
-↓
-
-Final Classification
+![Model Pipeline](images/model_pipeline.png)
 
 ---
 
@@ -111,12 +86,13 @@ AI_THRESHOLD = 0.44
 
 ### External Validation
 
-| Metric    | Score  |
-| --------- | ------ |
-| Accuracy  | 82.05% |
-| Precision | 81.82% |
-| Recall    | 91.67% |
-| F1 Score  | 86.47% |
+## External Validation Results
+
+![Validation Results](images/validation_results.png)
+
+## Error Analysis
+
+![Error Analysis](images/error_analysis.png)
 
 ---
 
